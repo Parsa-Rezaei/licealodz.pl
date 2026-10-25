@@ -1,0 +1,15 @@
+Copyright (c) 2026 Parsa-Rezaei (GitHub). Wszelkie prawa zastrzeżone. All rights reserved.
+
+Kod źródłowy, treści, układ strony i baza danych tego projektu nie mogą być kopiowane,
+modyfikowane, rozpowszechniane ani wykorzystywane komercyjnie bez pisemnej zgody właściciela.
+
+The source code, content, design and data of this project may not be copied, modified,
+distributed or used commercially without the owner's written permission.
+
+-------------------------------------------------------------------------------
+Komponenty zewnętrzne / Third-party components (vendor/)
+-------------------------------------------------------------------------------
+
+pdfmake 0.2.23 – licencja MIT, pełny tekst: vendor/pdfmake/LICENSE
+Czcionka Roboto (w vendor/pdfmake/vfs_fonts.js) – Apache License 2.0
+Tailwind CSS 4.1.18 (wygenerowany plik assets/styles.css) – licencja MIT, Copyright (c) Tailwind Labs, Inc.
