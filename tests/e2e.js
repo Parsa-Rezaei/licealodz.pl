@@ -123,7 +123,7 @@ async function main() {
   check(!/<script(?![^>]*\b(?:src=|type="application\/ld\+json"))[^>]*>/.test(html), 'brak skryptów inline w index.html');
   check(!/\son[a-z]+=/i.test(html), 'brak atrybutów on* (inline event handlers)');
   check(!/style=/.test(html), 'brak atrybutów style w index.html');
-  check(!/https?:\/\/(?!kalkulator-liceum-lodz\.pl|schema\.org|formspree\.io)[a-z0-9.-]+/i.test(html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '')), 'index.html nie odwołuje się do obcych domen');
+  check(!/https?:\/\/(?!licealodz\.pl|schema\.org|formspree\.io)[a-z0-9.-]+/i.test(html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, '')), 'index.html nie odwołuje się do obcych domen');
   const ld = await page.evaluate(() => Array.from(document.querySelectorAll('script[type="application/ld+json"]')).map(s => JSON.parse(s.textContent)['@type']));
   check(ld.join(',') === 'SoftwareApplication,FAQPage', 'JSON-LD poprawny');
 
