@@ -26,7 +26,7 @@ if (window.top !== window.self) {
    ========================================================================= */
 const CONFIG = deepFreeze({
   siteName: 'Kalkulator Liceum Łódź',
-  siteUrl: 'https://kalkulator-liceum-lodz.pl/',
+  siteUrl: 'https://licealodz.pl/',
   dataYearLabel: 'rekrutacji 2026 (rok szkolny 2026/2027)',
   dataUpdated: '24.10.2026',
   // Adres formularza Formspree, np. 'https://formspree.io/f/abcdwxyz'.
@@ -35,8 +35,8 @@ const CONFIG = deepFreeze({
   // Zapasowo: gdy leadEndpoint jest pusty, formularz otworzy program pocztowy z wiadomością na ten adres.
   leadEmail: '',
   // Dane administratora do polityki prywatności i stopki.
-  ownerName: '[uzupełnij: imię i nazwisko lub nazwa firmy]',
-  ownerEmail: '[uzupełnij: adres e-mail]',
+  ownerName: 'Mohammad Parsa Rezaei, ul. Politechniki 3B, pok. 717, 93-590 Łódź',
+  ownerEmail: 'parsa.rezaei.2014@gmail.com',
   // Usługa, przez którą wysyłany jest formularz (do polityki prywatności).
   formProcessor: 'Formspree, Inc. (USA)',
   // Partnerzy (szkoły korepetycji). Adres strony musi zaczynać się od https://
